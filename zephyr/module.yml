@@ -1,0 +1,6 @@
+name: Infineon TLI493D hall effect sensor
+build:
+  cmake: .
+  kconfig: Kconfig
+  settings:
+    dts_root: .

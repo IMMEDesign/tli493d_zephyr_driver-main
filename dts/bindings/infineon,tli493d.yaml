@@ -1,0 +1,8 @@
+# Copyright (c) 2023 Andriy Gelman <andriy.gelman@gmail.com>
+# SPDX-License-Identifier: Apache-2.0
+
+description: Infineon TLI493D hall sensor
+
+compatible: "infineon,tli493d"
+
+include: [i2c-device.yaml, sensor-device.yaml]

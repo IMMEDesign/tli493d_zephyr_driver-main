@@ -1,0 +1,7 @@
+config TLI493D
+	bool "TLI493D hall effect sensor driver"
+	default y
+	depends on DT_HAS_INFINEON_TLI493D_ENABLED
+	select I2C
+	help
+	  Enable the TLI493D hall effect sensor driver.
