@@ -27,7 +27,6 @@ static int tli493d_init(const struct device *dev)
     struct tli493d_config *cfg = dev->config;
     uint8_t write_buf[3];
     uint8_t read_buf[1];
-    uint8_t dbg_unused1;        // !dbg!
     
     write_buf[0] = 0x10;
     write_buf[1] = 0x00;
